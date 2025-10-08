@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container {
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Horizontal center */
+            align-items: center;     /* Vertical center */
+            font-family: Arial, sans-serif;
+            padding: 30px 50px;
+            text-align: center;
+        }
+
+        input {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #error {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h4>39-8 Error Handling try, catch, throw and finally</h4>
+    </header>
+
+    <body>
+        <section id="container">
+            <div>
+                <h1>Create custom error using Try and Catch</h1>
+                <div>
+                    <input type="text" id="age" placeholder="Enter age between 18-30" />
+                    <button onclick="checkAge()" type="submit">submit</button>
+                    <p id="error"></p>
+                </div>
+            </div>
+        </section>
+        <script src="try-catch.js"></script>
+    </body>
+</body>
+
+</html>
